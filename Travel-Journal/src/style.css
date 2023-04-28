@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: inter;
+	
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: #F55A5A;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+}
+
+nav > p {
+	width: 109px;
+	height: 16px;
+	left: 244px;
+	top: 20px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14.4608px;
+	line-height: 18px;
+	letter-spacing: -0.075em;
+
+	color: #FFFFFF;
+}
+
+nav > img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.card {
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	margin-left: 40px;
+
+	/* my */
+	margin-top: 40px;
+}
+
+.image {
+	width: 125px;
+	height: 168px;
+	left: 40px;
+	top: 100px;
+	border-radius: 5px;
+}
+
+.details-container--pin {
+	margin-right: 0.2rem;
+	float: left;
+}
+
+.details-container--location {
+	width: 40px;
+	height: 10px;
+	left: 195px;
+	top: 119px;
+	float: left;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10.24px;
+	line-height: 12px;
+	letter-spacing: 0.17em;
+
+	color: #2B283A;
+
+	/* my */
+	margin-top: 2px;
+	margin-bottom: 0px;
+	/* margin-right: ; */
+}
+
+.details-container--map-link {
+	width: 106px;
+	height: 13px;
+	left: 247px;
+	top: 119px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10.24px;
+	line-height: 12px;
+
+	/* identical to box height */
+	text-decoration-line: underline;
+
+	color: #918E9B;
+}
+
+.details-container--title {
+	width: 326px;
+	height: 40px;
+	left: 184px;
+	top: 136px;
+
+	font-style:	normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+
+	color: #2B283A;
+
+	/* my */
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.details-container--date {
+	width: 319px;
+	height: 11px;
+	left: 184px;
+	top: 183px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10.24px;
+	line-height: 12px;
+
+	color: #2B283A;
+
+	/* my */
+	margin-top: 5px;
+}
+
+.details-container--text {
+	width: 326px;
+	height: 45px;
+	left: 184px;
+	top: 203px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10.24px;
+	line-height: 150%;
+
+	/* or 15px */
+
+	color: #2B283A;
+
+
+}
+
+.details-container {
+	margin-top: 20px;
+	margin-left: 19px;
+}
+
